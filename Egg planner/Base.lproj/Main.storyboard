@@ -20,10 +20,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOd-bg-7l5">
-                                        <rect key="frame" x="27.666666666666657" y="0.0" width="320" height="270.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="270.66666666666669"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="How do you like your eggs ?" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ieM-G8-XsV">
-                                                <rect key="frame" x="0.0" y="49.999999999999986" width="320" height="220.66666666666663"/>
+                                                <rect key="frame" x="8" y="81.999999999999986" width="359" height="180.66666666666663"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
@@ -31,10 +31,10 @@
                                             </textView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="ieM-G8-XsV" firstAttribute="top" secondItem="AOd-bg-7l5" secondAttribute="top" constant="50" id="26d-OF-grK"/>
-                                            <constraint firstItem="ieM-G8-XsV" firstAttribute="leading" secondItem="AOd-bg-7l5" secondAttribute="leading" id="3c3-iE-2w0"/>
-                                            <constraint firstAttribute="trailing" secondItem="ieM-G8-XsV" secondAttribute="trailing" id="Cbs-qR-IWj"/>
-                                            <constraint firstAttribute="bottom" secondItem="ieM-G8-XsV" secondAttribute="bottom" id="t4e-x5-ECO"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="ieM-G8-XsV" secondAttribute="trailing" id="QPR-ER-uYU"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="ieM-G8-XsV" secondAttribute="bottom" id="dvn-AL-lE0"/>
+                                            <constraint firstItem="ieM-G8-XsV" firstAttribute="top" secondItem="AOd-bg-7l5" secondAttribute="topMargin" constant="30" id="taX-fa-Jnw"/>
+                                            <constraint firstItem="ieM-G8-XsV" firstAttribute="leading" secondItem="AOd-bg-7l5" secondAttribute="leadingMargin" id="wpP-Nc-6cj"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adw-96-8zc">
@@ -127,6 +127,16 @@
                                         <rect key="frame" x="27.666666666666657" y="541.33333333333337" width="320" height="270.66666666666663"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="AOd-bg-7l5" firstAttribute="leading" secondItem="Dyz-NL-qIV" secondAttribute="leading" id="575-eW-G67"/>
+                                    <constraint firstItem="Bca-cu-0ta" firstAttribute="top" secondItem="adw-96-8zc" secondAttribute="bottom" id="6oJ-j7-qLF"/>
+                                    <constraint firstItem="AOd-bg-7l5" firstAttribute="top" secondItem="Dyz-NL-qIV" secondAttribute="top" id="KkJ-aM-lNv"/>
+                                    <constraint firstAttribute="trailing" secondItem="adw-96-8zc" secondAttribute="trailing" id="Oee-Uj-WVF"/>
+                                    <constraint firstItem="adw-96-8zc" firstAttribute="top" secondItem="AOd-bg-7l5" secondAttribute="bottom" id="Rsd-aj-Pkw"/>
+                                    <constraint firstItem="adw-96-8zc" firstAttribute="top" secondItem="AOd-bg-7l5" secondAttribute="bottom" id="Srs-Z2-dX3"/>
+                                    <constraint firstItem="adw-96-8zc" firstAttribute="leading" secondItem="Dyz-NL-qIV" secondAttribute="leading" id="ayj-nq-tKE"/>
+                                    <constraint firstAttribute="trailing" secondItem="AOd-bg-7l5" secondAttribute="trailing" id="uJZ-vF-Z2o"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
