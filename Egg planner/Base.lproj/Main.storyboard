@@ -41,7 +41,7 @@
                                         <rect key="frame" x="0.0" y="270.66666666666663" width="375" height="270.66666666666663"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ocq-Pb-ael">
-                                                <rect key="frame" x="10" y="0.0" width="375" height="270.66666666666669"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="270.66666666666669"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPZ-1h-eo8">
                                                         <rect key="frame" x="0.0" y="0.0" width="105" height="270.66666666666669"/>
@@ -117,24 +117,45 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="ocq-Pb-ael" secondAttribute="bottom" id="ALC-Uw-nEy"/>
                                             <constraint firstAttribute="bottom" secondItem="ocq-Pb-ael" secondAttribute="bottom" id="GCT-T1-8t4"/>
-                                            <constraint firstItem="ocq-Pb-ael" firstAttribute="leading" secondItem="adw-96-8zc" secondAttribute="leading" constant="10" id="mec-Np-EZG"/>
+                                            <constraint firstItem="ocq-Pb-ael" firstAttribute="top" secondItem="adw-96-8zc" secondAttribute="top" id="WBK-eV-eHP"/>
+                                            <constraint firstItem="ocq-Pb-ael" firstAttribute="leading" secondItem="adw-96-8zc" secondAttribute="leading" constant="10" id="mC2-VX-aMr"/>
+                                            <constraint firstItem="ocq-Pb-ael" firstAttribute="leading" secondItem="adw-96-8zc" secondAttribute="leading" id="nRc-u3-vkv"/>
                                             <constraint firstItem="ocq-Pb-ael" firstAttribute="top" secondItem="adw-96-8zc" secondAttribute="top" id="oWp-Ty-6Ka"/>
-                                            <constraint firstAttribute="trailing" secondItem="ocq-Pb-ael" secondAttribute="trailing" constant="10" id="zu5-0Q-Klh"/>
+                                            <constraint firstAttribute="trailing" secondItem="ocq-Pb-ael" secondAttribute="trailing" id="z0U-RV-Twd"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bca-cu-0ta">
-                                        <rect key="frame" x="27.666666666666657" y="541.33333333333337" width="320" height="270.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="541.33333333333337" width="375" height="270.66666666666663"/>
+                                        <subviews>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="rwV-5h-Seq">
+                                                <rect key="frame" x="0.0" y="133" width="375" height="6"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="5" id="IHk-mO-srL"/>
+                                                </constraints>
+                                                <color key="progressTintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="trackTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="rwV-5h-Seq" firstAttribute="leading" secondItem="Bca-cu-0ta" secondAttribute="leading" id="IPZ-dZ-fJY"/>
+                                            <constraint firstItem="rwV-5h-Seq" firstAttribute="centerY" secondItem="Bca-cu-0ta" secondAttribute="centerY" id="YXC-uo-Lnw"/>
+                                            <constraint firstAttribute="trailing" secondItem="rwV-5h-Seq" secondAttribute="trailing" id="Z7c-1t-chN"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="AOd-bg-7l5" firstAttribute="leading" secondItem="Dyz-NL-qIV" secondAttribute="leading" id="575-eW-G67"/>
                                     <constraint firstItem="Bca-cu-0ta" firstAttribute="top" secondItem="adw-96-8zc" secondAttribute="bottom" id="6oJ-j7-qLF"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bca-cu-0ta" secondAttribute="bottom" id="GAh-LT-1sE"/>
                                     <constraint firstItem="AOd-bg-7l5" firstAttribute="top" secondItem="Dyz-NL-qIV" secondAttribute="top" id="KkJ-aM-lNv"/>
-                                    <constraint firstAttribute="trailing" secondItem="adw-96-8zc" secondAttribute="trailing" id="Oee-Uj-WVF"/>
+                                    <constraint firstItem="Bca-cu-0ta" firstAttribute="leading" secondItem="Dyz-NL-qIV" secondAttribute="leading" id="Ktg-3v-DvP"/>
                                     <constraint firstItem="adw-96-8zc" firstAttribute="top" secondItem="AOd-bg-7l5" secondAttribute="bottom" id="Rsd-aj-Pkw"/>
                                     <constraint firstItem="adw-96-8zc" firstAttribute="top" secondItem="AOd-bg-7l5" secondAttribute="bottom" id="Srs-Z2-dX3"/>
                                     <constraint firstItem="adw-96-8zc" firstAttribute="leading" secondItem="Dyz-NL-qIV" secondAttribute="leading" id="ayj-nq-tKE"/>
+                                    <constraint firstItem="Bca-cu-0ta" firstAttribute="top" secondItem="adw-96-8zc" secondAttribute="bottom" id="naM-Fz-UJz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bca-cu-0ta" secondAttribute="trailing" id="qJo-Pc-TTT"/>
                                     <constraint firstAttribute="trailing" secondItem="AOd-bg-7l5" secondAttribute="trailing" id="uJZ-vF-Z2o"/>
                                 </constraints>
                             </stackView>
@@ -143,11 +164,15 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
                             <constraint firstItem="Dyz-NL-qIV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HvW-UL-Hpb"/>
-                            <constraint firstItem="Dyz-NL-qIV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KyP-QR-jqy"/>
+                            <constraint firstItem="Dyz-NL-qIV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MZ2-rk-224"/>
                             <constraint firstAttribute="bottom" secondItem="Dyz-NL-qIV" secondAttribute="bottom" id="WFW-vO-hiV"/>
-                            <constraint firstItem="Dyz-NL-qIV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mV1-x0-BVe"/>
+                            <constraint firstItem="Dyz-NL-qIV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bdm-5W-Gbp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ProgressBar" destination="rwV-5h-Seq" id="Zad-fr-Z9I"/>
+                        <outlet property="titleLable" destination="ieM-G8-XsV" id="qBb-j4-JzF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

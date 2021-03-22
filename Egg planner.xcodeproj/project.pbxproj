@@ -10,11 +10,12 @@
 		F497A79426090D97000E8766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497A79326090D97000E8766 /* AppDelegate.swift */; };
 		F497A79626090D97000E8766 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497A79526090D97000E8766 /* SceneDelegate.swift */; };
 		F497A79826090D97000E8766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497A79726090D97000E8766 /* ViewController.swift */; };
-		F497A79B26090D97000E8766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F497A79926090D97000E8766 /* Main.storyboard */; };
 		F497A79D26090D99000E8766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F497A79C26090D99000E8766 /* Assets.xcassets */; };
 		F497A7A026090D99000E8766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F497A79E26090D99000E8766 /* LaunchScreen.storyboard */; };
 		F497A7AB26090D9A000E8766 /* Egg_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497A7AA26090D9A000E8766 /* Egg_plannerTests.swift */; };
 		F497A7B626090D9A000E8766 /* Egg_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497A7B526090D9A000E8766 /* Egg_plannerUITests.swift */; };
+		F4A1CD1F26091D5600CA8EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F497A79926090D97000E8766 /* Main.storyboard */; };
+		F4BE6F962609292D00ECDAD2 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4BE6F952609292C00ECDAD2 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F497A7B126090D9A000E8766 /* Egg plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg plannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F497A7B526090D9A000E8766 /* Egg_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_plannerUITests.swift; sourceTree = "<group>"; };
 		F497A7B726090D9A000E8766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BE6F952609292C00ECDAD2 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F497A79C26090D99000E8766 /* Assets.xcassets */,
 				F497A79E26090D99000E8766 /* LaunchScreen.storyboard */,
 				F497A7A126090D99000E8766 /* Info.plist */,
+				F4BE6F952609292C00ECDAD2 /* alarm_sound.mp3 */,
 			);
 			path = "Egg planner";
 			sourceTree = "<group>";
@@ -231,9 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A1CD1F26091D5600CA8EC2 /* Main.storyboard in Resources */,
 				F497A7A026090D99000E8766 /* LaunchScreen.storyboard in Resources */,
+				F4BE6F962609292D00ECDAD2 /* alarm_sound.mp3 in Resources */,
 				F497A79D26090D99000E8766 /* Assets.xcassets in Resources */,
-				F497A79B26090D97000E8766 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
