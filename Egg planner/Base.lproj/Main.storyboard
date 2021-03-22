@@ -49,7 +49,10 @@
                                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eH-QZ-m9m">
                                                                 <rect key="frame" x="-1" y="-0.66666666666662877" width="94" height="270.66666666666669"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <state key="normal" title="Button"/>
+                                                                <state key="normal" title="Soft"/>
+                                                                <connections>
+                                                                    <action selector="softNess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4C5-CT-5Mc"/>
+                                                                </connections>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="Rxl-I9-RK3">
                                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="270.66666666666669"/>
@@ -69,7 +72,10 @@
                                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLv-u2-Rbi">
                                                                 <rect key="frame" x="-1" y="-0.66666666666662877" width="94" height="270.66666666666669"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <state key="normal" title="Button"/>
+                                                                <state key="normal" title="Medium"/>
+                                                                <connections>
+                                                                    <action selector="softNess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ue-vN-Vhg"/>
+                                                                </connections>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="9R8-Dz-1b1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="270.66666666666669"/>
@@ -90,7 +96,10 @@
                                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfx-bv-UCi">
                                                                 <rect key="frame" x="-1" y="-0.66666666666662877" width="94" height="270.66666666666669"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <state key="normal" title="Button"/>
+                                                                <state key="normal" title="Hard"/>
+                                                                <connections>
+                                                                    <action selector="softNess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="asB-vV-PlS"/>
+                                                                </connections>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="Yxy-OS-aUp">
                                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="270.66666666666669"/>

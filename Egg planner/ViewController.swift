@@ -8,11 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var hardness = ["Soft":5,"Medium":10,"Hard":15]
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func softNess(_ sender: UIButton) {
+        var ness = sender.currentTitle!
+        print(hardness[ness]!)
     }
+    
 
 
 }
